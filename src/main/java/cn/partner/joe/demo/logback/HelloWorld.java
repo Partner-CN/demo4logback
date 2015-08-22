@@ -1,4 +1,4 @@
-package cn.partner.demo.joe.logback;
+package cn.partner.joe.demo.logback;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -10,7 +10,7 @@ public class HelloWorld {
 			@Override
 			public void run() {
 				for (;;) {
-					log.info("aa");
+					log.info("hello,world");
 					try {
 						Thread.sleep(1000);
 					} catch (InterruptedException e) {
