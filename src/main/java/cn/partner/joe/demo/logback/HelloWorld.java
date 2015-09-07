@@ -12,7 +12,7 @@ public class HelloWorld {
 				for (;;) {
 					log.info("why are you so busy ?");
 					try {
-						//TODO You Can write some code here
+						//TODO You Can Write Some Code Here
 						Thread.sleep(1000);
 					} catch (InterruptedException e) {
 						e.printStackTrace();
