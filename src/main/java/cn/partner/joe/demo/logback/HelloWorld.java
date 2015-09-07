@@ -10,8 +10,9 @@ public class HelloWorld {
 			@Override
 			public void run() {
 				for (;;) {
-					log.info("why are you so busy ?433434");
+					log.info("why are you so busy ?");
 					try {
+						//TODO something
 						Thread.sleep(1000);
 					} catch (InterruptedException e) {
 						e.printStackTrace();
