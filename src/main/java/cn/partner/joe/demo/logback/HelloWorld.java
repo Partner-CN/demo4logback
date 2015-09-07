@@ -10,7 +10,7 @@ public class HelloWorld {
 			@Override
 			public void run() {
 				for (;;) {
-					log.info("why are you so busy ?asdfsdfsaf");
+					log.info("why are you so busy ?safsaaa");
 					try {
 						Thread.sleep(1000);
 					} catch (InterruptedException e) {
